@@ -7,7 +7,7 @@ _______________________________________________________
 _Version 1.0.1_
 
 
-** This extension is a syntax highlighting extension for the language Moonscript on Visual Studio Code/Code Insiders **
+**This extension is a syntax highlighting extension for the language Moonscript on Visual Studio Code/Code Insiders**
 
 _____________________________________________________________
 
