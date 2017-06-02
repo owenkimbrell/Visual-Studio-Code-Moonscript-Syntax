@@ -1,0 +1,60 @@
+{
+    "name": "moonscript",
+    "displayName": "Moonscript Language",
+    "description": "Moonscript language syntax highlighting",
+    "version": "1.0.5",
+    "publisher": "Lynxish-Developer",
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/owenkimbrell/Visual-Studio-Code-Moonscript-Syntax" 
+    },
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Languages",
+        "Other"
+    ],
+    "icon": "CatWithAblunt.jpg",
+    "homepage": "https://github.com/owenkimbrell/Visual-Studio-Code-Moonscript-Syntax",
+    "author": {
+        "name": "Lynxish-Developer"
+    },
+    "galleryBanner": {
+        "theme": "light"
+    },
+    "license": "LICENSE",
+    "keywords": [
+        "moonscript",
+        "moon",
+        "MoonScript",
+        ".moon",
+        "Syntax"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "moonscript",
+                "aliases": [
+                    "MoonScript",
+                    "moonscript",
+                    "moon"
+                ],
+                "extensions": [
+                    ".moon"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "moonscript",
+                "scopeName": "source.moonscript",
+                "path": "./syntaxes/MoonScript.tmLanguage",
+                "embeddedLanguages": {
+                    "source.lua": "lua"
+                }
+            }
+        ]
+    }
+}

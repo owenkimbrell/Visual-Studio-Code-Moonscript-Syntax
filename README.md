@@ -1,24 +1,24 @@
-# Visual-Studio-Code-Moonscript-Syntax ##
+#Moonscript++ Compiler collection package for Moonscript syntax highlighting##
 
-_______________________________________________________
+**------------------**
 
-
-## Highlights all moonscript keywords and compatibile lua keywords(all lua keywords), and turns syntax belonging in lua into RED(function,end,...) ##
-_Version 1.0.2_
+_V 1.0.5_
 
 
-**This extension is a syntax highlighting extension for the language Moonscript on Visual Studio Code/Code Insiders**
+1. ** This package will highlight Moonscript, and compatible lua keywords in a text document. **
 
-_____________________________________________________________
+----------------------------------
 
--------------------------------------
+2. ** This package will highlight uncompatible lua keywords in the moonscript language (think function,end) **
 
+----------------------------------
 
-To install it on normal Visual studio code
+3. ** Highlights the entire standard library thats compatible with moonscript, in terms of keywords **
 
+---------------------------------------------------
 
-**_`code install moonscript-1.0.2.vsix`_**
+## Moonscript compiler tools comming soon ##
 
-_Same command as above for insiders execpt use code-insiders_
+### ** Check out moonscript++, the compiler to create standalone compiled Moonscript programs.** https://github.com/owenkimbrell/Moonscriptxx ###
 
-**Visual studio code Moonscript highlighting built off of leafo's .tmBundle**/
+**Lynxish-Developer**
