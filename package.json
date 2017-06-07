@@ -2,7 +2,7 @@
     "name": "moonscript",
     "displayName": "Moonscript Language",
     "description": "Moonscript language syntax highlighting",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "publisher": "Lynxish-Developer",
     "repository": {
         "type": "git", 
@@ -13,7 +13,8 @@
     },
     "categories": [
         "Languages",
-        "Other"
+        "Other",
+        "Snippets"
     ],
     "icon": "CatWithAblunt.jpg",
     "homepage": "https://github.com/owenkimbrell/Visual-Studio-Code-Moonscript-Syntax",
@@ -23,7 +24,7 @@
     "galleryBanner": {
         "theme": "dark"
     },
-    "license": "LICENSE",
+    "license": "./LICENSE",
     "keywords": [
         "moonscript",
         "moon",
