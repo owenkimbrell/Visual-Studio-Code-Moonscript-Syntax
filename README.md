@@ -7,6 +7,7 @@
 
 ## Class and object highlighting now seperate from functions and operations!! ##
 
+![sample](moonico.png)
 
 _V 1.0.7_
 
