@@ -2,7 +2,7 @@
     "name": "moonscript",
     "displayName": "Moonscript Language",
     "description": "Moonscript language syntax highlighting",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "publisher": "Lynxish-Developer",
     "repository": {
         "type": "git", 
@@ -21,15 +21,15 @@
         "name": "Lynxish-Developer"
     },
     "galleryBanner": {
-        "theme": "light"
+        "theme": "dark"
     },
     "license": "LICENSE",
     "keywords": [
         "moonscript",
         "moon",
-        "MoonScript",
         ".moon",
-        "Syntax"
+        "Syntax",
+        "Language"
     ],
     "contributes": {
         "languages": [
@@ -50,10 +50,16 @@
             {
                 "language": "moonscript",
                 "scopeName": "source.moonscript",
-                "path": "./syntaxes/MoonScript.tmLanguage",
+                "path": "./syntaxes/MoonScriptxx.json",
                 "embeddedLanguages": {
-                    "source.lua": "lua"
+                    "scopeName": "lua"
                 }
+            }
+        ],
+        "snippets": [
+            {
+                "language": "moonscript",
+                "path": "./snippets/MoonScriptxx-Snippets.json"
             }
         ]
     }
