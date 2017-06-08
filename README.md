@@ -7,9 +7,7 @@
 
 ## Class and object highlighting now seperate from functions and operations!! ##
 
-![sample](moonico.png)
-
-_V 1.0.7_
+_V 1.0.9_
 
 1. **NEW! Now has descriptions, and snippet support as well as a better coded language descriptior.**
 

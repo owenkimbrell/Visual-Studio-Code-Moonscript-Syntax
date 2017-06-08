@@ -1,0 +1,18 @@
+{
+    "version": "0.1.1",
+    "command": "moonc",
+    "isShellCommand": true,
+    "args": ["-l","$(file)"],
+    "problemMatcher": {
+        "owner": "moonscript",
+        "fileLocation": ["relative","$(workspaceRoot)"],
+        "pattern": {
+            "regexp": "^.*\\s(d+)\\s:\\s(.*)`(.*)`\n.*>\\s(.*)",
+            "line": 1,
+            "message": 2,
+            "severity": "warning",
+            "file": "$(file)",
+            "column": "1:10"
+        }
+    }
+}
