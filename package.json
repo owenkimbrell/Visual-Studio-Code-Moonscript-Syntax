@@ -1,30 +1,23 @@
 {
     "name": "moonscript",
     "displayName": "Moonscript Language",
-    "description": "Moonscript language syntax highlighting",
-    "version": "1.0.9",
+    "description": "Moonscript Language support",
+    "version": "1.1.5",
+    "readme": "README.md",
     "publisher": "Lynxish-Developer",
-    "engines": {
-        "vscode": "^0.10.0"
-    },
     "repository": {
         "type": "git",
         "url": "https://github.com/owenkimbrell/Visual-Studio-Code-Moonscript-Syntax"
+    },
+    "engines": {
+        "vscode": "^1.1.0"
     },
     "categories": [
         "Languages",
         "Other",
         "Snippets"
     ],
-    "main": "./src/extension.ts",
     "icon": "CatWithAblunt.jpg",
-    "homepage": "https://github.com/owenkimbrell/Visual-Studio-Code-Moonscript-Syntax",
-    "author": {
-        "name": "Lynxish-Developer"
-    },
-    "galleryBanner": {
-        "theme": "dark"
-    },
     "license": "./LICENSE",
     "keywords": [
         "moonscript",
@@ -33,6 +26,7 @@
         "Syntax",
         "Language"
     ],
+    "main": "./out/src/extension",
     "contributes": {
         "languages": [
             {
@@ -53,11 +47,9 @@
                 "language": "moonscript",
                 "scopeName": "source.moonscript",
                 "path": "./syntaxes/MoonScriptxx.json",
-                "embeddedLanguages": {
-                    "scopeName": "scope.lua"
-                },
                 "injectTo": [
-                    "moon"
+                    "moon",
+                    "moonscript"
                 ]
             }
         ],
@@ -68,17 +60,12 @@
             }
         ]
     },
-    "devDependencies": {
-        "@types/mocha": "2.2.32",
-        "@types/node": "6.0.40",
-        "fs-2": "0.0.1",
-        "mocha": "2.3.3",
-        "shelljs": "0.7.7",
-        "tmp": "0.0.31",
-        "ts-stream": "^0.9.1",
-        "typescript": "2.4.0-dev.20170606",
-        "util": "0.10.3",
-        "vscode": "1.2.0"
+    "dependencies": {
+        "@types/node": "^8.0.7",
+        "shelljs": "^0.7.8",
+        "tslint": "^5.4.3",
+        "typescript": "^2.4.1",
+        "vscode": "^1.1.1"
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
@@ -88,5 +75,8 @@
     },
     "activationEvents": [
         "onLanguage:moonscript"
-    ]
+    ],
+    "devDependencies": {
+        "util": "^0.10.3"
+    }
 }
