@@ -22,9 +22,9 @@ _V 1.0.9_
 
 ---------------------------------------------------
 
-## Moonscript compiler tools comming soon ##
+## Moonscript compiler tools (coming soon) ##
 
-### Check out Moonscript++, the compiler to create standalone compiled Moonscript programs. 
-https://github.com/owenkimbrell/Moonscriptxx ###
+### Check out Moonscript++, the compiler to create standalone compiled Moonscript programs. ###
+https://github.com/owenkimbrell/Moonscriptxx
 
 **Lynxish-Developer**
