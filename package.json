@@ -62,7 +62,7 @@
     },
     "dependencies": {
         "@types/node": "^8.0.7",
-        "shelljs": "^0.7.8",
+        "shelljs": "^0.8.5",
         "tslint": "^5.4.3",
         "typescript": "^2.4.1",
         "vscode": "^1.1.1"
